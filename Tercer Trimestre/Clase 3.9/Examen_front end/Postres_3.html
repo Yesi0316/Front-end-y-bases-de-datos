@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!-- Mover Bootstrap dentro de <head> -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+
+    <style>
+        body {
+            background-color: #ffe6f0; 
+            text-align: center;
+            font-family: 'Arial', sans-serif;
+            padding: 20px;
+        }
+        img.logo {
+            width: 200px;
+            height: auto;
+            float: left;
+            margin-right: 50px;
+            margin-bottom: 100px;
+            margin-top: 0px;
+        }
+        .btn-group {
+            margin-top: 20px;
+            margin-bottom: 20px;
+            margin-right: 50px;
+            float: left;
+        }
+        h1 {
+            color: #ff3399;
+            margin-top:50px; 
+        }
+        .btn-group .btn {
+            font-size: 16px;
+            padding: 10px 20px;
+        }
+        .row.g-4 > .col {
+            display: flex;
+        }
+
+        .card {
+            display: flex;
+            flex-direction: column;
+            height: 100%;
+            width: 100%;
+        }
+        .card-img-top {
+            height: 500px;
+            width: 100%;
+            object-fit: cover;
+        }
+
+        .card-body {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            flex: 1 1 auto;
+        }
+    </style>
+</head>
+<body>
+<h1>Postres</h1>
+<img class="logo" src="Imagenes_pag/1600w-466kwj-U9h0.webp" alt="Logo de Ojo Dulce">
+ <div class="btn-group">
+  <button type="button" class="btn btn-secondary dropdown-toggle" data-bs-toggle="dropdown" data-bs-display="static" aria-expanded="false" style="color: lightcoral; background-color: #fff0f5; border-color: lightcoral;">
+    Menú
+  </button>
+   <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+    <li><a class="dropdown-item" href="index.html">Nosotros</a></li>
+    <li><a class="dropdown-item" href="postres.html">Postres</a></li>
+    <li><a class="dropdown-item" href="contactenos.html">contactenos</a></li>
+  </ul>
+</div>
+
+<div class="row row-cols-1 row-cols-md-2 g-4">
+  <div class="col">
+    <div class="card">
+      <img src="Imagenes_pag/Ensalada de frutas.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Ensalada de frutas</h5>
+        <p class="card-text">Precio: 7.000 Cop</p>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card">
+      <img src="Imagenes_pag/Helado_postre.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Postre helado</h5>
+        <p class="card-text">Precio: 12.000 Cop</p>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card">
+      <img src="Imagenes_pag/Paletas de chocolate.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Paletas de chocolate</h5>
+        <p class="card-text">Precio: 11.000 Cop</p>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card">
+      <img src="Imagenes_pag/Cafe Peruano.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Cafe Peruano</h5>
+        <p class="card-text">Precio: 23.000 Cop</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<a class="btn btn-outline-secondary" href="postres_2.html" role="button" style="color: #e65b92;">Atrás</a>
+    
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
+</html>
