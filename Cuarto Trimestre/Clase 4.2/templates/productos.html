@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Productos</title>
+    <link rel="stylesheet" 
+      href="../static/css/style.css">
+</head>
+<body>
+    
+<header>
+     <h1>Mi heladeria</h1>
+</header>
+
+<section class="tarjetas">
+
+    <div class="card">
+        <div class="img-container">
+            <img src="../static/img/Helado_chicle.jpg" alt="Helado de chicle">
+        </div>
+        <div class="text-container">
+            <h3>Helado de chicle</h3>
+            <p>Precio:$2.500</p>
+            <button onclick="agregarProducto('Helado de chicle',2.500)">Agregar al carrito</button>
+        </div>
+
+    </div>
+
+    <div class="card">
+        <img src="../static/img/Helado_chocolate.jpg" alt="Helado de chocolate">
+        <h3>Helado de chocolate</h3>
+        <p>Precio:$3.000</p>
+        <button onclick="agregarProducto('Helado de chocolate',3.000)">Agregar al carrito</button>
+    </div>
+
+    <div class="card">
+        <img src="../static/img/Helado_Fresa.webp" alt="Helado de fresa">
+        <h3>Helado de fresa</h3>
+        <p>Precio:$2.500</p>
+        <button onclick="agregarProducto('Helado de fresa',2.500)">Agregar al carrito</button>
+    </div>
+
+    <div class="card">
+        <img src="../static/img/Helado_vainilla.jpg" alt="Helado de vainilla">
+        <h3>Helado de vainilla</h3>
+        <p>Precio:$2.000</p>
+        <button onclick="agregarProducto('Helado de vainilla',2.000)">Agregar al carrito</button>
+    </div>
+
+    <div class="card">
+        <img src="../static/img/Helado_Menta.avif" alt="Helado de menta">
+        <h3>Helado de menta</h3>
+        <p>Precio:$2.500</p>
+        <button onclick="agregarProducto('Helado de menta',2.500)">Agregar al carrito</button>
+    </div>
+</section>
+
+<div>
+    <a href="carrito.html">
+        <button class="btn-carrito" aria-label="Abrir carrito">
+            <img src="../static/img/carrito.png" alt="Carrito">
+            <span id="contador" class="contador-badge">0</span>
+        </button>
+    </a>    
+</div>
+
+</div>
+
+    <script src="../static/js/script.js" defer></script>
+<div class="barrita">
+    <h1>Menú</h1>
+     <nav>
+        <a class="h" href="home.html">Inicio</a>
+        <br>
+        <a class="h" href="productos.html">Productos</a>
+    </nav>
+</div>
+ 
+</div>
+
+</body>
+</html>
