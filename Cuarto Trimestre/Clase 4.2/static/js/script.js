@@ -11,7 +11,6 @@ actualizarContador();
 function agregarProducto(nombre, precio) {
     carrito.push({ nombre: nombre, precio: precio });
     localStorage.setItem('carrito', JSON.stringify(carrito));
-    // Actualizar contador y UI inmediatamente después de agregar
     actualizarContador();
 }
 
